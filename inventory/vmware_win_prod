@@ -1,0 +1,202 @@
+[Antivirus]
+"wt-lon-av01" ansible_host="wt-lon-av01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[AppSense]
+"WT-DeNiro" ansible_host="WT-DeNiro.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-DiCaprio" ansible_host="WT-DiCaprio.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-IsisA" ansible_host="WT-IsisA.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[AWS_and_Azure]
+"wt-Azureworker" ansible_host="wt-Azureworker.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Backups_and_Disaster_Recovery]
+"wt-vmc-commvault02" ansible_host="wt-vmc-commvault02.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[Calm]
+"WT-Calm" ansible_host="WT-Calm.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[Care]
+"WT-Augustus" ansible_host="WT-Augustus.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Crow" ansible_host="WT-Crow.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Jersey" ansible_host="WT-Jersey.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-QASUpdates" ansible_host="WT-QASUpdates.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Certificate_Authority]
+"WT-Apollo" ansible_host="WT-Apollo.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Ares" ansible_host="WT-Ares.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Athena" ansible_host="WT-Athena.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Poseidon" ansible_host="WT-Poseidon.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOff
+[Commvault]
+"WT-COMMSERVE-02" ansible_host="WT-COMMSERVE-02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Concept_Evolution]
+"WT-Gold" ansible_host="WT-Gold.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Silver" ansible_host="WT-Silver.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[DDS]
+"WT-Harare" ansible_host="WT-Harare.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Havana" ansible_host="WT-Havana.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Helsinki" ansible_host="WT-Helsinki.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Lima" ansible_host="WT-Lima.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Lisbon" ansible_host="WT-Lisbon.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Madrid" ansible_host="WT-Madrid.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Decom_SQL_Server__Caracas]
+"WT-CaracasB" ansible_host="WT-CaracasB.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+[Decom_SQL_Server__ISIS]
+"WT-IsisB" ansible_host="WT-IsisB.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+# [DHCP]
+# "WT-IPAM" ansible_host="WT-IPAM.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+# "WT-LON-DHCP-1" ansible_host="WT-LON-DHCP-1.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+# "WT-LON-DHCP-2" ansible_host="WT-LON-DHCP-2.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+# [Domain_Controllers]
+# "wt-lon-adlds01" ansible_host="wt-lon-adlds01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+# "wt-lon-adlds02" ansible_host="wt-lon-adlds02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+# "wt-lon-rodc01" ansible_host="wt-lon-rodc01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+# "wt-lon-rodc02" ansible_host="wt-lon-rodc02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+# "WT-Mufasa" ansible_host="WT-Mufasa.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+# "WT-Sarabi" ansible_host="WT-Sarabi.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+# "wt-simba" ansible_host="wt-simba.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Enterprise_Vault]
+"WT-Asgard" ansible_host="WT-Asgard.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Events_Management]
+"WT-Bishop" ansible_host="WT-Bishop.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-KXProposal" ansible_host="WT-KXProposal.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Facilities]
+"WT-FOOTFALL1" ansible_host="WT-FOOTFALL1.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-BMS01" ansible_host="WT-LON-BMS01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-SENTRY01" ansible_host="WT-LON-SENTRY01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-PADS" ansible_host="WT-PADS.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Reach" ansible_host="WT-Reach.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Resourcex" ansible_host="WT-Resourcex.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Turbo" ansible_host="WT-Turbo.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[File_Servers]
+"WT-DEVBack01" ansible_host="WT-DEVBack01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-FS01" ansible_host="WT-FS01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-FS02" ansible_host="WT-FS02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-FS03" ansible_host="WT-FS03.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-FS04" ansible_host="WT-FS04.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-FS05" ansible_host="WT-FS05.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-FS06" ansible_host="WT-FS06.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LIBFS01" ansible_host="WT-LIBFS01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LIBFS02" ansible_host="WT-LIBFS02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LIBFS03" ansible_host="WT-LIBFS03.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LibFS05" ansible_host="WT-LibFS05.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LibFS06" ansible_host="WT-LibFS06.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-EUCFS01" ansible_host="WT-LON-EUCFS01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-SQL-FS01" ansible_host="WT-SQL-FS01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Finance]
+"WT-BPA" ansible_host="WT-BPA.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wtpuma" ansible_host="wtpuma.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Genesis]
+"WT-Carrot" ansible_host="WT-Carrot.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Lightning" ansible_host="WT-Lightning.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-WEB01" ansible_host="WT-LON-WEB01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Grant_Tracker]
+"WT-CCT" ansible_host="WT-CCT.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Farina" ansible_host="WT-Farina.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Hawthorn" ansible_host="WT-Hawthorn.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Hunt" ansible_host="WT-Hunt.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Jones" ansible_host="WT-Jones.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Lauda" ansible_host="WT-Lauda.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Lewis" ansible_host="WT-Lewis.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Mansell" ansible_host="WT-Mansell.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Prost" ansible_host="WT-Prost.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Schumacher" ansible_host="WT-Schumacher.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-Surtees" ansible_host="WT-Surtees.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[IDWorx]
+"WT-Tadpole" ansible_host="WT-Tadpole.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Infinity]
+"WT-Lon-InfinityGW" ansible_host="Wt-lon-InfinityGW.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Infra_Test]
+"WT-SLAM-EFS" ansible_host="WT-SLAM-EFS.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Infrastructure]
+"WT-AZPROXY-1" ansible_host="WT-AZPROXY-1.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-AZPROXY-2" ansible_host="WT-AZPROXY-2.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WTBurma" ansible_host="WTBurma.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"Wt-DataSecurity" ansible_host="Wt-DataSecurity.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+"WT-LON-AADC01" ansible_host="WT-LON-AADC01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-ADAuto" ansible_host="wt-lon-ADAuto.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+"WT-ServiceNowDMZ" ansible_host="WT-ServiceNowDMZ.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-WVDADMIN-01" ansible_host="WT-WVDADMIN-01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[JAMF]
+"WT-FRINK" ansible_host="WT-FRINK.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Library]
+"WT-Gilead" ansible_host="WT-Gilead.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-InFlow" ansible_host="WT-InFlow.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Nashville" ansible_host="WT-Nashville.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+[Management_and_Monitoring]
+"WT-183-EntMan" ansible_host="WT-183-EntMan.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Crestron" ansible_host="WT-Crestron.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-adap01" ansible_host="wt-lon-adap01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-ipmon01" ansible_host="wt-lon-ipmon01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-wsus01" ansible_host="wt-lon-wsus01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-zvm" ansible_host="wt-lon-zvm.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-NetServices1" ansible_host="WT-NetServices1.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-netservices2" ansible_host="wt-netservices2.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-netservices4" ansible_host="wt-netservices4.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Mimsy]
+"WT-Mimsy" ansible_host="WT-Mimsy.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[Network]
+"WT-IMC-01" ansible_host="WT-IMC-01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-IMC-02" ansible_host="WT-IMC-02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Radius" ansible_host="WT-Radius.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-RADIUS-02" ansible_host="WT-RADIUS-02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Open_Access_Monograph_and_Book_Chapter_Deposit]
+"WT-ITARI" ansible_host="WT-ITARI.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[Pharos]
+"WT-Lighthouse" ansible_host="WT-Lighthouse.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+"WT-Lizard" ansible_host="WT-Lizard.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-PHA01" ansible_host="WT-LON-PHA01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Phones]
+"WT-Bolton" ansible_host="WT-Bolton.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Bolton(HA)" ansible_host="WT-Bolton(HA).WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Oldham" ansible_host="WT-Oldham.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Polyp" ansible_host="WT-Polyp.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Telecom" ansible_host="WT-Telecom.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Printing]
+"WT-Harrier" ansible_host="WT-Harrier.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-MPrint01" ansible_host="WT-MPrint01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Print01" ansible_host="WT-Print01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-VRFM" ansible_host="WT-VRFM.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Prod]
+"WT-VMC-SQL01" ansible_host="WT-VMC-SQL01.WELLCOMEIT.COM" platform=vmc powerstate=PoweredOn
+[Production]
+"wt-lon-CCure" ansible_host="wt-lon-CCure.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-IDWORKS01" ansible_host="WT-LON-IDWORKS01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-TRIM" ansible_host="WT-LON-TRIM.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Remote_Access]
+"wt-lon-ivjump" ansible_host="wt-lon-ivjump.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-randJump" ansible_host="wt-lon-randJump.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[SCCM]
+"WT-Paisley" ansible_host="WT-Paisley.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Shankly" ansible_host="WT-Shankly.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Varonis" ansible_host="WT-Varonis.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Security]
+"wt-lon-wef-01" ansible_host="wt-lon-wef-01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Meta" ansible_host="WT-Meta.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Sharepoint]
+"WT-Hourglass" ansible_host="WT-Hourglass.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Metal" ansible_host="WT-Metal.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Metal-2" ansible_host="WT-Metal-2.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[SQL_Servers]
+"WT-England" ansible_host="WT-England.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-England(HA)" ansible_host="WT-England(HA).WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LeonardA" ansible_host="WT-LeonardA.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+"WT-Sand" ansible_host="WT-Sand.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Scotland" ansible_host="WT-Scotland.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Tableau_Alteryx]
+"WT-Bolivar" ansible_host="WT-Bolivar.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+"WT-Cohiba" ansible_host="WT-Cohiba.WELLCOMEIT.COM" platform=onprem powerstate=poweredOff
+[TeamCity]
+"WT-Shale" ansible_host="WT-Shale.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[TM1]
+"wt-lon-pa01" ansible_host="wt-lon-pa01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"wt-lon-paw01" ansible_host="wt-lon-paw01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+[Wellcome_Library]
+"WT-Bucharest" ansible_host="WT-Bucharest.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Budapest" ansible_host="WT-Budapest.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Cairo" ansible_host="WT-Cairo.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-Canberra" ansible_host="WT-Canberra.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-CaracasA" ansible_host="WT-CaracasA.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-ARR01" ansible_host="WT-LON-ARR01.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+"WT-LON-ARR02" ansible_host="WT-LON-ARR02.WELLCOMEIT.COM" platform=onprem powerstate=poweredOn
+
+[all:vars]
+ansible_connection=winrm
+# ansible_winrm_server_cert_validation=ignore
+ansible_port=5985
+ansible_winrm_transport=kerberos
+ansible_winrm_message_encryption=auto
+ansible_winrm_kerberos_delegation=true
